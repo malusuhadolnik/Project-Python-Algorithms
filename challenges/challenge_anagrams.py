@@ -35,7 +35,7 @@ def merge(left: list[int], right: list[int], merged: list[int]) -> list[int]:
 
 
 def is_anagram(first_string, second_string):
-    if first_string == "" or second_string == "":
+    if first_string == "" and second_string == "":
         return (first_string, second_string, False)
 
     # comparação precisa ser case-insensitive. É testado lowercase:
